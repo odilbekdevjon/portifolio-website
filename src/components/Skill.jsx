@@ -10,6 +10,9 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { IoLogoHtml5 } from "react-icons/io";
 import { IoLogoReact } from "react-icons/io5";
 import { SiTailwindcss } from "react-icons/si";
+import { FaGitSquare } from "react-icons/fa";
+import { DiBootstrap } from "react-icons/di";
+import { SiMaterialformkdocs } from "react-icons/si";
 
 const skillItem = [
     {
@@ -28,6 +31,16 @@ const skillItem = [
         desc:'User Interface'
     },
     {
+        imgSrc: <DiBootstrap size={30} /> ,
+        label:'Bootstrap',
+        desc:'You can create easy'
+    },
+    {
+        imgSrc: <FaGitSquare size={30} /> ,
+        label:'GIT',
+        desc:'Work with community'
+    },
+    {
         imgSrc: <IoLogoJavascript size={30} />,
         label:'Javascript',
         desc:'Interaction'
@@ -42,18 +55,23 @@ const skillItem = [
         label:'TailwindCSS',
         desc:'User Interface'
     },
+    {
+        imgSrc:<SiMaterialformkdocs size={30} />,
+        label:'Material UI',
+        desc:'User Interface'
+    },
 ]
 
 const Skill = () => {
   return (
-    <section className='section'>
+    <section id='reviews' className='section mb-20'>
         <div className="container">
             <h2 className='headline-2'>
                 Essintial Tools I use
             </h2>
 
             <p className='text-zinc-400 mt-3 mb-8 mx-a-[50ch]'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae praesentium obcaecati asperiores, provident quia incidunt quas repellat pariatur quidem commodi odio aspernatur corrupti voluptates eveniet, nobis dolore perspiciatis, sed quo.
+                
             </p>
 
             <div className="grid grid-cols-3 gap-5">

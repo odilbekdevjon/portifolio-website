@@ -21,12 +21,11 @@ const Footer = () => {
             </div>
 
             <div className='mb-10'>
-                <p>Sitemap </p>
-                <ul>
+                <ul className='flex gap-10 mt-10'>
                     {
                         sitemap.map(({label, link}, key) => (
-                            <li key={key}>
-                                <a href={link} className='block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200'
+                            <li key={key} className='flex'>
+                                <a href={link} className=' text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200'
                                 >
                                     {label}
                                 </a>

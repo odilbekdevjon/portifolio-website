@@ -1,5 +1,8 @@
 import React from 'react'
 
+// images 
+import { LuArrowUpRight } from "react-icons/lu";
+
 const AboutItems = [
     {
         label:'Project done',
@@ -15,22 +18,32 @@ const About = () => {
   return (
     <section
     id='about'
-    className='section'
+    className='section mb-20'
     >
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 ">
-            <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl w-full">
-            About Me
-                Hello! I'm a passionate front-end developer with 3 years of experience crafting interactive and user-friendly websites. I specialize in creating responsive designs that adapt beautifully across all devices.
 
-                I enjoy turning complex problems into simple, elegant solutions. Whether it's building sleek interfaces or optimizing performance, I strive to make the web a better place—one project at a time.
+                <div className="about flex justify-between">
 
-                Currently, I'm working at Record IT, where I've contributed to several client projects and am now involved in developing a large-scale platform for training centers.
+                    <div className="">
+                        <h2 className="tracking-[1px] text-[20px]"><span className='text-[45px] mr-1'>01</span>   Fullstack developer</h2>
+                        <h2 className="tracking-[1px] text-[20px]"><span className='text-[45px]'>02</span>   Frontend mentor</h2>
+                        <h2 className="tracking-[1px] text-[20px]"><span className='text-[45px]'>03</span>   Computer specialist</h2>
+                    </div>
 
-                When I'm not coding, you can find me exploring new technologies or participating in web development events.
+                    <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl w-[800px] leading-5">
+                        About Me
+                            Hello! I'm a passionate front-end developer with 3 years of experience crafting interactive and user-friendly websites. I specialize in creating responsive designs that adapt beautifully across all devices.
 
-                Let’s build something amazing together!
-            </p>
+                            I enjoy turning complex problems into simple, elegant solutions. Whether it's building sleek interfaces or optimizing performance, I strive to make the web a better place—one project at a time.
+
+                            Currently, I'm working at Record IT, where I've contributed to several client projects and am now involved in developing a large-scale platform for training centers.
+
+                            When I'm not coding, you can find me exploring new technologies or participating in web development events.
+
+                            Let’s build something amazing together!
+                    </p>
+                </div>
 
             <div className="flex flex-wrap items-center gap-6 md:gap-7">
                 {
@@ -47,7 +60,9 @@ const About = () => {
                     })
                 }
 
-                <span className='ml-auto md:w-[40px] h-[40px]'>Logo</span>
+                <span className='ml-auto md:w-[40px] h-[40px]'>
+                    <LuArrowUpRight size={30} />
+                </span>
             </div>
         </div>
       </div>
