@@ -11,7 +11,11 @@ export default {
     extend: {
       fontFamily: {
         'sans':['Inter', 'sans-serif']
-      }
+      },
+      screens: {
+        'xs': '480px',  // Sizning kerakli breakpoint qiymatingiz
+        'ms':'350px'
+      },
     },
   },
   plugins: [tailwindScrollbar],

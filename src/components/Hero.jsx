@@ -13,7 +13,7 @@ const Hero = () => {
     <section id='home' className='pt-28 lg:pt-36 mb-20' >
         <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
             <div className='flex flex-col'>
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col gap-3 md:mb-[100px] sm:mb-[100px]">
 
                     <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
                         <span className='relative w-2 h-2 rounded-full bg-emerald-400 '>
@@ -24,7 +24,7 @@ const Hero = () => {
                     </div>
 
                     <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[20ch] mt-5 mb-8 lg:mb-10">
-                        <span className='text-green-500!important'>I am Frontend developer.</span> I can create modern website for your business
+                        I am Frontend developer. I can create modern website for your business
                     </h2>   
 
                     <div className="flex items-center gap-3 border-2 border-white w-[150px] rounded-md">
@@ -36,7 +36,7 @@ const Hero = () => {
                 </div>
             </div>
 
-            <div className="">
+            <div className="xs:mt-20">
                 <figure className='w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400 to-65% rounded-[165px] overflow-hidden'>
                     <img className='rounded-md w-full h-auto' src={person} width={550} height={200} alt="person" />
                 </figure>

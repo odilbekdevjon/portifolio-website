@@ -15,4 +15,10 @@
     animation: typing 2s steps(20, end) forwards;
   }
 
+/* responsive */
 
+/* @media (max-width:768px) {
+   .headline-1 {
+    text-align: center;
+   }
+} */

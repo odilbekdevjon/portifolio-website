@@ -74,11 +74,11 @@ const Skill = () => {
                 
             </p>
 
-            <div className="grid grid-cols-3 gap-5">
+            <div className="grid lg:grid-cols-3 gap-5 sm:grid-cols-2 xs:grid-cols-1 ms:grid-cols-1">
                 {
                     skillItem.map(({imgSrc, label, desc},key) => {
                         return (
-                            <div className='skill-card flex items-center gap-3 mt-4 ring-2 ring-inset ring-zinc-50/10 rounded-2xl p-3 hover:bg-zinc-800 transition-colors group '>
+                            <div key={key} className='skill-card flex items-center gap-3 mt-4 ring-2 ring-inset ring-zinc-50/10 rounded-2xl p-3 hover:bg-zinc-800 transition-colors group xsw:flex-col'>
                                 <div className='icon bg-zinc-700/50 rounded-lg overflow-hidden w-12 h-12 p-2 group-hover:bg-zinc-900 transition-colors'>{imgSrc}</div>
                                 <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px, _1fr))]">
                                     <h3>{label}</h3>
