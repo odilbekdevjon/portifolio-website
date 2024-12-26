@@ -19,6 +19,7 @@ const About = () => {
     <section
     id='about'
     className='section mb-20'
+    data-aos="fade-right"
     >
       <div className="container">
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 ">

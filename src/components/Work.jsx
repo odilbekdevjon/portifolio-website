@@ -53,6 +53,7 @@ const Work = () => {
     <section
      id='work'
      className='section'
+     data-aos="fade-up"
     >
         <div className="container">
             <h2 className='headline-2 mb-5'>

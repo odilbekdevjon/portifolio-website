@@ -42,7 +42,7 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact' className='section'>
+    <section id='contact' className='section' data-aos="flip-up">
       <div className="container">
         <div className="lg:grid lg:grid-cols-2">
           <div className="">

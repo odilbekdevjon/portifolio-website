@@ -64,7 +64,7 @@ const skillItem = [
 
 const Skill = () => {
   return (
-    <section id='reviews' className='section mb-20'>
+    <section id='reviews' className='section mb-20' data-aos="zoom-in">
         <div className="container">
             <h2 className='headline-2'>
                 Essintial Tools I use

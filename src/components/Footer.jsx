@@ -10,14 +10,14 @@ const sitemap = [
 
 const Footer = () => {
   return ( 
-    <footer className='section'>
+    <footer className='section' data-aos="fade-up">
     <hr />
       <div className="container">
 
         <div className="lg:grid lg:grid-cols-2 mt-5">
             <div className="mb-10">
-                <h2 className='headline-1 mb-8 lg:max-w-[15ch]'>Lets work togather with today</h2>
-                <button className='btn btn-primary'>Start project</button>
+                <h2 className='headline-1 mb-8 lg:max-w-[15ch]'>Transform Your Vision into Reality</h2>
+                <button className='btn btn-primary'>Work with Me</button>
             </div>
 
             <div className='mb-10'>
